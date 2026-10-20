@@ -178,6 +178,14 @@ form button {
   cursor: pointer;
   font: inherit;
 }
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font: inherit;
+}
 
 @media (max-width: 768px) {
   .content-layout {
