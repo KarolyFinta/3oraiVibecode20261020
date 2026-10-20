@@ -139,6 +139,46 @@ aside {
   border-radius: 8px;
   box-sizing: border-box;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+form button {
+  align-self: flex-start;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
 @media (max-width: 768px) {
   .content-layout {
     flex-direction: column;
